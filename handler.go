@@ -39,7 +39,7 @@ func Post(w http.ResponseWriter, r *http.Request) {
 			randm := []string{
 				"Kamu hensommm bgt tau",
 				"genchananaaa genchanaaaayoooo",
-				"Jangan galak dong, memet takut tauu",
+				"Jangan galak dong",
 			}
 			dt := &wa.TextMessage{
 				To:       msg.Phone_number,
