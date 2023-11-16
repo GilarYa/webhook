@@ -8,7 +8,7 @@ require (
 	github.com/aiteung/atmessage v0.1.0
 	github.com/aiteung/module v0.1.0
 	github.com/whatsauth/wa v0.2.6
-	github.com/whatsauth/webhook v0.0.10
+	github.com/whatsauth/webhook v0.1.5
 )
 
 require (
@@ -55,7 +55,7 @@ require (
 	github.com/youmark/pkcs8 v0.0.0-20201027041543-1326539a0a0a // indirect
 	go.mau.fi/libsignal v0.1.0 // indirect
 	go.mau.fi/util v0.2.0 // indirect
-	go.mau.fi/whatsmeow v0.0.0-20231110185952-cfd1bea9628a // indirect
+	go.mau.fi/whatsmeow v0.0.0-20231112141858-68b25b3f6fe9 // indirect
 	go.mongodb.org/mongo-driver v1.12.1 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.26.0 // indirect
