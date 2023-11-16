@@ -37,9 +37,11 @@ func Post(w http.ResponseWriter, r *http.Request) {
 			resp, _ = atapi.PostStructWithToken[atmessage.Response]("Token", os.Getenv("TOKEN"), dt, "https://api.wa.my.id/api/send/message/text")
 		} else {
 			randm := []string{
-				"Kamu hensommm bgt tau",
+				"kamu mau ngapain kak?",
 				"genchananaaa genchanaaaayoooo",
-				"Jangan galak dong",
+				"jangan begitu dong kak sabar ya",
+				"coba kamu share live lokasi kamu biar aku cek",
+				"gilarnya kayaknya gada deh tunggu aja ya",
 			}
 			dt := &wa.TextMessage{
 				To:       msg.Phone_number,
